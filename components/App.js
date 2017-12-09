@@ -13,18 +13,8 @@ class App extends Component {
             lista: [
                         {
                             id: 1,
-                            name: 'pollo',
-                            done: false
-                        },
-                        {
-                            id: 2,
-                            name: 'sopa',
-                            done: false
-                        },
-                        {
-                            id: 3,
-                            name: 'ropa',
-                            done: false
+                            name: 'Tec',
+                            done: true
                         }
                     ]
         }
@@ -86,12 +76,10 @@ class App extends Component {
             <Container>
                 <Header>
                     <Left>
-                        <Button transparent>
-                            <Icon name='menu' />
-                        </Button>
+                        
                     </Left>
                     <Body>
-                        <Title>Header</Title>
+                        <Title>Fav Places</Title>
                     </Body>
                     <Right />
                 </Header>
@@ -114,7 +102,7 @@ class App extends Component {
                 </Content>
                 <Footer>
                     <FooterTab>
-                        <Button 
+                        <Button success
                             full
                             onPress={this.agregarItem}
                             >
@@ -139,11 +127,11 @@ export default App;
 
 // Initialize Firebase
 const firebaseConfig = {  
-    apiKey: "AIzaSyCfGksHS2BpYH6BXrqznpZWMlAwzrmtttU",
-    authDomain: "reactfirebase-b16aa.firebaseapp.com",
-    databaseURL: "https://reactfirebase-b16aa.firebaseio.com",
-    projectId: "reactfirebase-b16aa",
-    storageBucket: "reactfirebase-b16aa.appspot.com",
-    messagingSenderId: "113538498979"
+    apiKey: "AIzaSyCK32Emi3roHLn03wfj3gVrmiCozs_IvKU",
+    authDomain: "reactfirebase-a8dab.firebaseapp.com",
+    databaseURL: "https://reactfirebase-a8dab.firebaseio.com",
+    projectId: "reactfirebase-a8dab",
+    storageBucket: "",
+    messagingSenderId: "576860207450"
 };
 const firebaseApp = firebase.initializeApp(firebaseConfig); 

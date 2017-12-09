@@ -66,7 +66,7 @@ class RowComponent extends Component {
                             >
                             <ListItem icon>
                                 <Left>
-                                    <Icon name="pizza" />
+                                 
                                 </Left>
                                 <Body>
                                   <Text>{this.props.item.name}</Text>
